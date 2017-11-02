@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="profile.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default nav-background">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" id="logo-decoration">µStorm</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><button class="btn btn-default" type="button" id="btn-join-room">Join a chat room</button></li>
+                    <li id=search-box>
+                        <h4 id="search-text">Search</h4>
+                    </li>
+                    <li id="search-input-list">
+                        <div id="search-input-div" class="form-inline">
+                            <input id="search-input" class="form-control" type="search" placeholder="Username"><button id="search-btn" class="btn btn-default"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li id="btn-logout-list">
+                        <button class="btn btn-default" type="button" id="btn-logout">Log Out</button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="profile-container">
+                        <div class="profile-div">
+                            <h4 class="profile-headers">Interests</h4>
+                            <p class="profile-paras">Rocket sciences, Business Management, Robotics</p>
+                        </div>
+                        <hr width="80%" align-center="true">
+                        <div class="profile-div">
+                            <h4 class="profile-headers">Expertise</h4>
+                            <p class="profile-paras">C programming, Node.js, angular.js, Full stack development</p>
+                        </div>
+                        <hr width="80%" align-center="true">
+                        <div class="profile-div">
+                            <h4 class="profile-headers">Hobbies</h4>
+                            <p class="profile-paras">Football, Paper Art, Photography</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-8">
+                    <div class="update-container">
+                        <h3 id="update-heading">Update</h3>
+                        <hr width="80%" align-center="true">
+                        <div class="update-inputs-div-outer">
+                            <div class="update-inputs">
+                                <h4 class="update-inputs-headers">Interests</h4>
+                                <textarea id="textarea-inputs" rows="3"></textarea>
+                            </div>
+                            <div class="update-inputs">
+                                <h4 class="update-inputs-headers">Expertise</h4>
+                                <textarea id="textarea-inputs" rows="3"></textarea> 
+                            </div>
+                            <div class="update-inputs">
+                                <h4 class="update-inputs-headers">Hobbies</h4>
+                                <textarea id="textarea-inputs" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn btn-default" type="button" id="update-btn">Update</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid {
+    margin-bottom: 0px;
+}
+
+.container {
+    margin-left: 15px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.nav-background {
+    background-color: #FF8050;
+    font-family: Raleway;
+}
+
+.inputs-body {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 40px;
+}
+
+.inputs-div {
+    overflow: hidden;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.labels {
+    font-family: Raleway;
+    font-size: 20px;
+    float: left;
+    padding-right: 100%;
+}
+
+#logo-decoration {
+    font-size: 35px;
+    color: white;
+}
+
+#create-profile-heading {
+    font-family: Raleway;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#textarea-inputs {
+    width: 80%;
+    float: left;
+    border-radius: 2px;
+}
+#textarea-inputs:focus {
+    box-shadow: 1px 1px 6px grey;
+}
+
+#btn-save {
+    border-radius: 2px;
+    background-color: #FF8050;
+    color: white;
+    width: 100px;
+}
+#btn-save:hover {
+    background-color: #428bca;
+    box-shadow: 1px 1px 6px grey;
+    color: white;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="signin.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default nav-background">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" id="logo-decoration">µStorm</a>
+                </div>
+            </div>
+        </nav>
+        <div class="main-body">
+            <div class="signin-form">
+                <form role="form">
+                    <h4 id="login-heading">Login to µStorm</h4>
+                    <div class="form-group">
+                        <label for="email" id="labels">E-mail</label>
+                        <input ng-model="email" type="email" class="form-control" placeholder="E-mail" id="input-email">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd" id="labels">Password</label>
+                        <input ng-model="password" type="password" class="form-control" placeholder="Password" id="input-pwd">
+                    </div>
+                    <button type="submit" class="btn btn-default" ng-click="submit()" id="btn-submit">Submit</button>
+                    <hr width="80%" color="grey" align="center">
+                    <div id="signup-here"><a ng-click="signup()">Sign Up!</a></div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Sign up | Login | Privacy Policy | Contact Us</p>
+            <p id="copyrights-postion">All rights reserved. uStorm 2016</p>
+        </div>
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

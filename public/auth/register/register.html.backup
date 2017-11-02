@@ -1,0 +1,25 @@
+<div class="container">
+    <form role="form">
+      <div class="form-group">
+        <input ng-model="firstname" type="text" class="form-control" placeholder="Firstname" required/>
+        <input ng-model="lastname" type="text" class="form-control" placeholder="Lastname" required/>
+      </div>
+      <div class="form-group">
+        <input ng-model="firstEm" type="email" class="form-control" placeholder="Email" required/>
+        <input ng-model="reEm" type="email" class="form-control" placeholder="Confirm Email" required/>
+      </div>
+      <div class="form-group">
+        <input ng-model="firstPwd" type="password" class="form-control" placeholder="Password" required/>
+        <input ng-model="rePwd" type="password" class="form-control" placeholder="Confirm Password" required/>
+      </div>
+        <!-- To be replaced with drop downs -->
+      <div class="form-group">
+        <input ng-model="dob.year" type="number" min="1900" max="2014" placeholder="YYYY" required/><input ng-model="dob.month" type="number" min="1" max="12" placeholder="MM" required/><input ng-model="dob.date" type="number" min="1" max="31" placeholder="DD" required/>
+      </div>
+      <div class="form-group">
+        <label><input ng-model="gender" type="radio" ng-value="'male'"/>Male</label>
+        <label><input ng-model="gender" type="radio" ng-value="'female'"/>Female</label>  
+      </div>
+      <button type="submit" class="btn btn-success" ng-click="registerSubmit()">Submit</button>
+    </form>
+</div>

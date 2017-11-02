@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="chatApp">
+<head>
+    <title>uStorm! Brainstorm Ideas</title>
+    <meta name="description" content="Sign Up on uStorm and start chatting with Entrepreneurs around the globe.
+                                      Brainstorm ideas, build teams or find your next CoFounder! Connecting 
+                                      to people around the world has never been this easy.">
+    <meta name="keywords" content="brainstorm idea entrepreneur young signup login collaborate startup 
+                                   code marketing chatroom social network teams">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheets/ui-bootstrap-csp.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.css' type='text/css' media='all' />
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-84161220-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+</head>
+    <body ng-view>
+        <!--    Scripts   -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular-route.js"></script>
+        <script src="javascripts/ui-bootstrap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.5.8/angular-messages.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.min.js"></script>
+        <!-- Analytics -->
+        <script src="bower_components/angularytics/dist/angularytics.min.js"></script>
+        <script src="bower_components/angularytics/src/consoleHandler.js"></script>
+        <script src="bower_components/angularytics/src/googleHandler.js"></script>
+        <!--<script src="bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js"></script>-->
+        <!-- Custom Controllers -->
+        <script src="mainController.js"></script>
+        <script src="homeController.js"></script>
+        <script src="profile/newProfileController.js"></script>
+        <script src="auth/login/loginController.js"></script>
+        <script src="profile/profileController.js"></script>
+        <script src="chat/chatFactory.js"></script>
+        <script src="chat/chatController.js"></script>
+        <script src="aboutus/aboutUsController.js"></script>
+    </body>
+</html>

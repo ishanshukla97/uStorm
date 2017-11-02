@@ -1,0 +1,124 @@
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+}
+
+.username-list {
+    background: lightslategrey;
+    min-height: 680px;
+}
+
+.chatbox-height {
+    background: white;
+    min-height: 680px;
+}
+
+.panel-heading {
+    padding: 0px;
+}
+.panel-body {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+}
+.username-label {
+    width: 100%;
+    background: yellow;
+    align-items:center;
+    list-style-type: none;
+    font-size: 15pt;
+    border-radius: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.exit-btn {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+
+.wide-input {
+    width: 90%;
+    height: 35px;
+    font-size: 14pt;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.scrollable {
+    height: 560px;
+    max-height: 560px;;
+    overflow-y: scroll;
+}
+
+/*  this user sends messages to chat room chat, bubble   */
+.this-chat-bubble 
+{
+    font-size: 17px;
+    background: lightgrey;
+    position: relative;
+    min-width: 50%;
+    padding: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    float: right;
+    margin-right: 25px;
+    margin-left: 70%;
+    margin-bottom: 10px;
+}
+
+.this-chat-bubble:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 0 15px 25px;
+    border-color: transparent lightgray;
+    display: block;
+    width: 0;
+    z-index: 1;
+    right: -25px;
+    top: 11px;
+}
+
+/*  Recieving chat messages from other users chat, bublle */
+.other-chat-bubble 
+{
+    font-size: 17px;
+    position: relative;
+    min-width: 50%;
+    padding: 10px;
+    background: lightgrey;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    float: left;
+    margin-left: 0px;
+    margin-right: 70%;
+    margin-bottom: 10px;
+}
+
+.other-chat-bubble:after 
+{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 25px 15px 0;
+    border-color: transparent lightgrey;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -25px;
+    top: 11px;
+}
+

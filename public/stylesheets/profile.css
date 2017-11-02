@@ -1,0 +1,163 @@
+.navbar {
+    margin: 0px;
+    width: 100%;
+}
+
+.nav-background {
+    background-color: #FF8050;
+    font-family: Raleway;
+}
+
+.col-sm-4 {
+    padding-right: 0px;
+    background-color: #fff2ed;
+}
+
+.col-sm-8 {
+    padding-right: 0px;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.profile-container {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.profile-div {
+    text-align: center;
+    font-family: Raleway;
+    margin-bottom: 15%;
+}
+
+.profile-div-modal {
+    text-align: center;
+    font-family: Raleway;
+    margin-bottom: 50px;
+}
+
+.profile-headers {
+    font-family: Raleway;
+    font-size: 22px;
+    margin-bottom: 8%;
+    font-weight: 600;
+}
+
+.profile-paras {
+    font-family: Raleway;
+    font-size: 16px;
+}
+
+.update-container {
+    font-family: Raleway;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.update-inputs {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.modal-header {
+    background-color:#FF8050;
+    color:white;
+    text-align: center;
+}
+
+.update-inputs-div-outer {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-left: 10px;
+    margin-bottom: 40px;
+}
+
+.update-inputs-headers {
+    float: left;
+    margin-right: 100%;
+}
+
+#logo-decoration {
+    font-size: 35px;
+    color: white;
+    margin-right: 20px;
+}
+
+#btn-join-room {
+    background-color: cadetblue;
+    color: white;
+    padding-bottom: 12px;
+    padding-top: 13px;
+    border-radius: 0px;
+    font-size: 17px;
+    margin-right: 90px;
+}
+
+#search-text {
+    font-size: 17px;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 16px;
+}
+
+#search-input-div {
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+
+#search-input {
+    border-radius: 1px;
+    border: 0px solid transparent;
+    min-width: 300px;
+    width: auto;
+}
+
+#search-btn {
+    border-radius: 1px;
+    border: 0px solid transparent;
+    height: 34px;
+}
+
+#btn-logout {
+    background-color: cadetblue;
+    color: white;
+    padding-bottom: 12px;
+    padding-top: 13px;
+    border-radius: 0px;
+    font-size: 17px;
+}
+#btn-logout:hover {
+    background-color: #A80000;
+}
+
+#update-heading {
+    font-weight: 600;
+}
+
+#textarea-inputs {
+    width: 90%;
+    border-radius: 4px;
+    float: left;
+    font-family: Raleway;
+}
+
+#update-btn {
+    display: inline-block;
+    background-color: #FF8050;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    width: 100px;
+}
+#update-btn:hover {
+    background-color: #428bca;
+    box-shadow: 1px 1px 6px grey;
+    color: white;
+}

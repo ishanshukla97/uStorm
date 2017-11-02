@@ -1,0 +1,36 @@
+<div>
+    <link rel="stylesheet" href="../../stylesheets/login.css"/>
+    <nav class="navbar navbar-default nav-background">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="logo-decoration" ng-click="signupPage()">µStorm</a>
+            </div>
+        </div>
+    </nav>
+    <div class="main-body">
+        <div class="signin-form">
+            <form role="form">
+                <h4 id="login-heading">Login to µStorm</h4>
+                <ng-messages for="alerts">
+                    <ng-message class="alert alert-danger" when="invalid">Invalid E-mail/Password</ng-message>
+                </ng-messages>
+                <div class="form-group">
+                    <label for="email" id="labels">E-mail</label>
+                    <input ng-model="email" type="email" class="form-control" placeholder="E-mail" id="input-email">
+                </div>
+                <div class="form-group">
+                    <label for="pwd" id="labels">Password</label>
+                    <input ng-model="password" type="password" class="form-control" placeholder="Password" id="input-pwd">
+                </div>
+                <button type="submit" class="btn btn-default" ng-click="submit()" id="btn-submit">Submit</button>
+                <hr width="80%" color="grey" align="center">
+                <div id="signup-here"><a ng-click="signupPage()">Sign Up!</a></div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p><a ng-click="signupPage()">Sign Up</a> | <a ng-click="aboutusPage()">About Us</a></p>
+        <p id="copyrights-postion">All rights reserved. uStorm 2016</p>
+    </div>
+</div>

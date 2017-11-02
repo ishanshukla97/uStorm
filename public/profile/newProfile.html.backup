@@ -1,0 +1,26 @@
+<div class="container">
+    <div>
+        <h1>User Information for first time use.</h1>
+        <p>Don't worry you can edit it later</p>
+    </div>
+    <br>
+    <div>
+        <label>Choose a Username</label>
+        <input ng-model="username" placeholder="Username"/>
+    </div>
+    <div>
+        <label>Your Interests</label>
+        <input ng-model="interest" placeholder="Anything which you like to do most."/>
+    </div>
+    <br>
+    <div>
+        <label>Hobbies</label>
+        <input ng-model="hobbies" placeholder="What do you do the most in your free time?"/>
+    </div>
+    <br>
+    <div>
+        <label>Expertise</label>
+        <input ng-model="expertise" placeholder="Are you a Web Dev? Or you can sell a pen to anyone? Mention whatever you are or you want to become"/>
+    </div>
+    <button class="btn btn-primary" type="button" ng-click="submitProfile()">Submit</button>
+</div>

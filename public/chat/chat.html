@@ -1,0 +1,40 @@
+
+<div class="container">
+    <link rel="stylesheet" href="../stylesheets/chatpage.css"/>
+    <div class="row">
+        <!-- Col-sm for left side panel (User list) -->
+        <div class="col-sm-4 username-list">
+            <h3 style="text-align:center">Users</h3>
+            <br/>
+            <!-- <div ng-show="!(users.length == 1)"> -->
+                <div class="panel panel-default" ng-repeat="user in users">
+                    <div class="panel-heading">
+                        <button class="btn" style="width: 100%;" value="Collapse" ng-click="user.isCollapsed = !user.isCollapsed">{{user.name}}</button>
+                    </div>
+                    <div class="panel-body" collapse="user.isCollapsed">
+                        <div ng-show="user.isCollapsed">
+                            <p>Interests: {{user.interest}}</p>
+                            <p>Expertise: {{user.expertise}}</p>
+                            <p>Hobbies: {{user.hobbies}}</p>
+                        </div>
+                    </div>
+                </div>
+            <!--</div>-->
+            <button type="button" class="btn btn-danger exit-btn" ng-click="exitRoom()">Exit Room</button>
+        </div>          
+
+        <!-- Col-sm for right side (chat-box) -->
+        <div class="col-sm-8 chatbox-height">
+            <h3 style="text-align:center">Chat</h3>
+            <br/>
+            <div class="scrollable">
+                <!-- Chats list -->
+                <ul id="chatlist-appender">
+                    
+                </ul>
+            </div>
+            <input placeholder="Write Here" class="wide-input" ng-model="message"/>
+            <button class="btn btn-primary" ng-click="send()" ng-model="message">Send</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,96 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid {
+    margin-bottom: 0px;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+.nav-background {
+    background-color: #FF8050;
+    font-family: Raleway;
+}
+
+.main-body {
+    background-color: #fff2ed;
+    width: 100%;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+
+.signin-form {
+    background-color: white;
+    width: 40%;
+    min-width: 200px;
+    min-height: 250px;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    border-radius: 1px;
+    box-shadow: 0px 2px 8px grey;
+}
+
+.footer {
+    background-color: #e6e6e6;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#login-heading {
+    margin-top: 0px;
+    text-align: center;
+    font-family: Raleway;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#logo-decoration {
+    font-size: 35px;
+    color: white;
+}
+
+#labels {
+    font-family: Raleway;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20.9px;
+    padding-top: 10px;
+}
+
+#input-email {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 1px;
+}
+
+#input-pwd {
+    margin-left: 20%;
+    width: 60%;
+    border-radius: 1px;
+}
+
+#btn-submit {
+    margin-top: 10px;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    background-color: #e57348;
+    color: white;
+    width: 20%;
+    min-width: 80px;
+}
+
+#signup-here {
+    padding-bottom: 10px;
+}
+
+#copyrights-postion {
+    margin-bottom: 0px;
+}

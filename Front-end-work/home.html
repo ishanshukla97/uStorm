@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="home.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="jumbotron">
+            <h1 id="main-heading">Welcome to µStorm - Socialize with Entrepreneurs</h1> 
+            <div class="container">
+                <div class="opening-para">
+                    <h2 class="opening-header">µStorm is a platform where you can chat with random people
+                        around the world and brainstorm ideas.</h2>
+                    <h4 class="opening-list-header">Here you can: </h4>
+                    <ul class="opening-list">
+                        <li>Create your own profile and show what skills and interest you have.</li>
+                        <li>Join a chat room and start chatting and braintstorming ideas.</li>
+                        <li>Search other users by their username.</li>
+                    </ul>
+                </div>
+                <div class="form-custom signup-form">
+                    <form role="form">
+                        <h3 id="create-account">Create an account</h3>
+                        <hr width="30%" align="centre">
+                        <label id="labels">Name</label>
+                        <div class="form-group">
+                            <input ng-model="firstname" type="text" class="form-control" placeholder="Firstname" id="firstname" required/>
+                            <input ng-model="lastname" type="text" class="form-control" placeholder="Lastname" id="lastname" required/>
+                        </div>
+                        <label id="labels">Email</label>
+                        <div class="form-group">
+                            <input ng-model="firstEm" type="email" class="form-control" placeholder="Email" id="email" required/>
+                            <input ng-model="reEm" type="email" class="form-control" placeholder="Confirm Email" id="email-confirm" required/>
+                        </div>
+                        <label id="labels">Password</label>
+                        <div class="form-group">
+                            <input ng-model="firstPwd" type="password" class="form-control" placeholder="Password" id="password" required/>
+                            <input ng-model="rePwd" type="password" class="form-control" placeholder="Confirm Password" id="password-confirm" required/>
+                        </div>
+                        <!-- To be replaced with drop downs -->
+                        <label id="labels">Birth Date</label>
+                        <div class="form-group">
+                            <input ng-model="dob.year" type="number" min="1900" max="2014" placeholder="YYYY" class="dob-input input" required/>
+                            <input ng-model="dob.month" type="number" min="1" max="12" placeholder="MM" class="dob-input input" required/>
+                            <input ng-model="dob.date" type="number" min="1" max="31" placeholder="DD" class="dob-input input" required/>
+                        </div>
+                        <label id="labels">Gender</label>
+                        <div class="form-group">
+                            <label id="labels"><input ng-model="gender" type="radio" ng-value="'male'"/> Male</label>
+                            <label id="labels"><input ng-model="gender" type="radio" ng-value="'female'"/> Female</label>  
+                        </div>
+                        <button type="submit" class="btn btn-success" ng-click="registerSubmit()">Submit</button>
+                        <hr width="50%">
+                        <div class="form-group">
+                            <label id="labels" style="margin-right:20px;">Already registered?</label>
+                            <button type="button" class="btn btn-primary">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div id="content-body">
+            <div class="container" id="body-positioning">
+                <h2 id="sub-heading">Brainstorm ideas with like-minded people!</h2>
+                <p id="first-info">Do you know the first and foremost step of starting a startup? Getting the right Idea! Obviously this is
+                    a game changer. If your idea is not good than it is hard to build a business plan. Getting good ideas is not easy, but if you find someone who is like you then probablity of getting implementable
+                    ideas double!
+                </p>
+            </div>
+            <div class="container" id="body-positioning" style="padding-top:0px">
+                <h2 id="sub-heading">Build Contacts or Team up.</h2>
+                <p id="first-info">Here you can chat with people who have different skills and expertise. Either you can share your
+                    contact or skip to next chat room.
+                </p>
+            </div>
+        </div>
+        
+        <div id="content-body-second">
+            <div class="container" id="body-positioning">
+                <h2 id="sub-heading">How this thing works?</h2>
+                <div class="how-to-info">
+                    <ul id="how-to-list">
+                        <li id="list-content"><i class="fa fa-check-square-o fa-2x" aria-hidden="true" style="margin-right: 10px;"></i>Create Account and Login</li>
+                        <li id="list-content"><i class="fa fa-user fa-2x" aria-hidden="true" style="margin-right: 10px;"></i>Create your online profile so that other people can see what you've got!</li>
+                        <li id="list-content"><i class="fa fa-users fa-2x" aria-hidden="true" style="margin-right: 10px;"></i>Join a random chat room</li>
+                        <li id="list-content"><i class="fa fa-rocket fa-2x" aria-hidden="true" style="margin-right: 10px;"></i>Define a problem and brainstorm ideas to find it's solution</li>
+                        <li id="list-content"><i class="fa fa-smile-o fa-2x" aria-hidden="true" style="margin-right: 10px;"></i>Like people here? No? Join another chat room!</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Privacy Policy | Contact Us</p>
+            <p>All rights reserved. uStorm 2016</p>
+        </div>
+        
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>

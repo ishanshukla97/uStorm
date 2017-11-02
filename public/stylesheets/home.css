@@ -1,0 +1,165 @@
+.opening-para {
+    float: left;
+    text-align: left;
+    font-family: Raleway;
+    color: white;
+    width: 55%;
+}
+
+.opening-header {
+    margin-bottom: 50px;
+}
+
+.opening-list-header {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.opening-list {
+    font-size: 20px;
+}
+
+.form-custom {
+    width: 40%;
+    float: right;
+}
+.jumbotron {
+    background-color: #FF8050;
+    margin-bottom: 0px;
+}
+
+.dob-input {
+    border-radius: 5px;
+}
+
+.signup-form {
+    border-radius: 7px;
+    background-color: #DCDCDC;
+    padding: 10px;
+    box-shadow: 0px 5px 8px grey;
+}
+
+.how-to-info {
+    font-size: 20px;
+    align-items: flex-start;
+}
+
+.footer {
+    background-color: #e6e6e6;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-success {
+    border-radius: 2px;
+}
+.btn-primary {
+    border-radius: 2px;
+}
+
+#labels {
+    font-family: Raleway;
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 20.9px;
+    padding-top: 10px;
+}
+
+#main-heading {
+    text-align: center;
+    font-weight: 10;
+    font-family: 'Raleway';
+    font-size: 48px;
+    margin-bottom: 100px;
+    color: white;
+    font-weight: 600;
+}
+
+#sub-heading {
+    margin-bottom: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#create-account {
+    text-align: center;
+}
+
+#firstname {
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#lastname {
+    width: 50%;
+    float: right;
+    margin-bottom: 5px;
+}
+
+#email {
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#email-confirm {
+    width: 50%;
+    float: right;
+    margin-bottom: 5px;
+}
+
+#password {
+    width: 50%;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#password-confirm {
+    width: 50%;
+    float: right;
+    margin-bottom: 5px;
+}
+
+#already-user-label {
+    margin-right: 60%;
+}
+
+#content-body {
+    background-color: #00FF7F;
+    padding: 0px;
+    margin: 0px;
+    font-family: Raleway;
+    text-align: center;
+}
+
+#content-body-second {
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+    font-family: Raleway;
+    color: white;
+}
+
+#body-positioning {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#first-info {
+    font-size: 18px;
+}
+
+#how-to-list {
+    list-style-type: none;
+    align-content: flex-start;
+    margin-left: 20%;
+}
+
+#list-content {
+    margin-bottom: 30px;
+}
+

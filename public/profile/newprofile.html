@@ -1,0 +1,39 @@
+<div>
+    <link rel="stylesheet" href="../stylesheets/newprofile.css">
+    <nav class="navbar navbar-default nav-background">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" id="logo-decoration">µStorm</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h3 id="create-profile-heading">Create Profile</h3>
+        <hr width="50%" align-center="true">
+        <ng-messages for="alerts">
+            <ng-message when="empty_fields" class="alert alert-danger">All of the below fields are required</ng-message>
+            <ng-message when="username_unavailable" class="alert alert-danger">Sorry! This username is not available</ng-message>
+        </ng-messages>
+        <div class="inputs-body">
+            <div class="inputs-div">
+                <label class="labels">Interests</label>
+                <textarea id="textarea-inputs" rows="3" ng-model="interest"></textarea>
+            </div>
+            <div class="inputs-div">
+                <label class="labels">Expertise</label>
+                <textarea id="textarea-inputs" rows="3" ng-model="expertise"></textarea>
+            </div>
+            <div class="inputs-div">
+                <label class="labels">Hobbies</label>
+                <textarea id="textarea-inputs" rows="3" ng-model="hobbies"></textarea>
+            </div>
+            <div class="inputs-div">
+                <label class="labels">Set Username</label>
+                <textarea id="username-input" ng-model="username"></textarea>
+            </div>
+        </div>
+        <button type="button" class="btn btn-default" id="btn-save" ng-click="submitProfile()">Save</button>
+        <hr width="90%" align-center="true">
+    </div>
+</div>

@@ -1,0 +1,59 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.container-fluid {
+    margin-bottom: 0px;
+}
+
+.container {
+    margin-left: 30px;
+    padding-left: 0px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+.nav-background {
+    background-color: #FF8050;
+    font-family: Raleway;
+}
+
+.info-body {
+    margin-left: 30px;
+    font-family: Raleway;
+    margin-top: 70px;
+}
+
+.info-divs {
+    margin-bottom: 40px;
+}
+
+.info-headers {
+    font-size: 24px;
+}
+
+.info-paras {
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.footer {
+    background-color: #e6e6e6;
+    text-align: center;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#logo-decoration {
+    font-size: 35px;
+    color: white;
+}
+
+#about-header {
+    font-family: Raleway;
+    font-size: 40px;
+}

@@ -1,0 +1,46 @@
+<div class="row" ng-init="init()">
+    <div class="col-sm-4">
+        <div class="container-fluid">
+            <span>Image</span>
+        </div>
+        <div class="container-fluid">
+            <div>
+                <label>Interests</label>
+                <p>{{   interests    }}</p>
+            </div>
+            <div>
+                <label>Expertise</label>
+                <p>{{   expertise   }}</p>
+            </div>
+            <div>
+                <label>Hobbies</label>
+                <p>{{   hobbies    }}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <h3>Update Profile</h3>
+        <div class="container">
+            <div>
+                <label>Interests</label>
+                <input ng-model="updateInterests"/>
+            </div>
+            <div>
+                <label>Hobbies</label>
+                <input ng-model="updateHobbies"/>
+            </div>
+            <div>
+                <label>Expertise</label>
+                <input ng-model="updateExpertise"/>
+            </div>
+        </div>
+        <div><button type="button" class="btn btn-success" ng-click="updateProfile()">Update</button></div>
+        <br>
+        <div class="continer">
+            <h3>Privacy Settings</h3>
+            <div>
+                <span>{{    username    }}</span>
+            </div>
+        </div>
+    </div>
+</div>
